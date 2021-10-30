@@ -12,6 +12,67 @@ body {
   font-weight: 400;
   color: #0e0e0e;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
   background-color: #f0efe9;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #0e0e0e;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin: 0 1rem;
+}
+.logo {
+  font-size: 3rem;
+  padding-right: 1.5rem;
+}
+.menu-button button {
+  background-color: #f9a826;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.menu-icon {
+  margin-left: 0.9rem;
 }
