@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   color: #0e0e0e;
   height: 100vh;
-  overflow: auto;
+  overflow: hidden;
   background-color: #f0efe9;
 }
 body,
@@ -61,6 +61,10 @@ nav ul {
 nav li {
   margin: 0 1rem;
 }
+.brand {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-size: 3rem;
   padding-right: 1.5rem;
@@ -74,5 +78,51 @@ nav li {
   border-radius: 5px;
 }
 .menu-icon {
+  margin-left: 0.9rem;
+}
+section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+section h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.marketing-copy {
+  flex: auto;
+}
+.marketing-image {
+  flex: 1;
+}
+.quote {
+  color: #6a6a6a;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}
+.qoute-author {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+section button {
+  background-color: #0e0e0e;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+.author-title {
+  font-size: 0.5rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
   margin-left: 0.9rem;
 }
